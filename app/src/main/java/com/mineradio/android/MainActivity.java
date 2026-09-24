@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
     private void injectDesktopStubs() {
         String js = "javascript:(function() {" +
             "if (window.desktopWindow) return;" +
-            "window.desktopWindow = { apiBase: "https://YOUR-RAILWAY-URL.up.railway.app"," +
+            "window.desktopWindow = { apiBase: "https://mineradio-android-production-9541.up.railway.app"," +
             "  isDesktop: true," +
             "  minimize: function(){return Promise.resolve();}," +
             "  toggleMaximize: function(){return Promise.resolve();}," +
